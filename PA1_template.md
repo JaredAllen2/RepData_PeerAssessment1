@@ -121,6 +121,7 @@ mediansteps_imp <- median(steps_date_imp$x,na.rm=TRUE)
 ```
 
 After imputation, the revised mean number of steps taken is 9503, and the revised median number of steps is 10395
+Imputing missing values has reduced the mean and median number of steps, and suggests that the majority of missing values were from time periods in which less steps were generally taken.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
